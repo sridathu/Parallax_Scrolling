@@ -1,0 +1,68 @@
+body {
+    min-height: 100vh;
+    overflow-x: hidden;
+    background: #020912;
+
+}
+  
+
+.parallax{
+    position:relative;
+    display: flex;
+    justify-content:center;
+    align-items:top;
+    height: 100vh;
+    background: url('background.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+#text{
+    position: absolute;
+    font-size: 5em;
+    color: #1b283a;
+    text-shadow: 2px 4px 5px #f9f9f9;
+
+}
+.parallax img {
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+}
+
+.parallax img#gate-left {
+    transform: translateX(-250px);
+}
+.parallax img#gate-right {
+    transform: translatex(300px);
+}
+.sec {
+    position: relative;
+    background: #020912;
+    padding: 30px 100px;
+
+}
+.sec p {
+    color: #fff;
+    font-size: 2em;
+
+    
+}
+.sec li {
+    color: #fff;
+    font-size: 2em;
+
+    
+}
+.sec h1{
+    color: #fff;
+    font-size: 3em;
+    margin-bottom:10px;
+}
+.sec h2{
+    color: #fff;
+    font-size:2em ;
+}
